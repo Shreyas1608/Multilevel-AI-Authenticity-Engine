@@ -2,11 +2,11 @@ import os
 import requests
 
 MODEL_URLS = {
-    "models/level1/level1_fft.pth": "https://github.com/Shreyas1608/Multilevel-AI-Authenticity-Engine/releases/download/untagged-9bc4c27c830e54b706fd/level1_fft.pth",
-    "models/level1/level1_hybrid.pth": "https://github.com/Shreyas1608/Multilevel-AI-Authenticity-Engine/releases/download/untagged-9bc4c27c830e54b706fd/level1_hybrid.pth",
-    "models/level2/level2_face_best.pth": "https://github.com/Shreyas1608/Multilevel-AI-Authenticity-Engine/releases/download/untagged-9bc4c27c830e54b706fd/level2_face_best.pth",
-    "models/level2/level2_face_cropped_best.pth": "https://github.com/Shreyas1608/Multilevel-AI-Authenticity-Engine/releases/download/untagged-9bc4c27c830e54b706fd/level2_face_cropped_best.pth",
-    "models/level3/level3_semantic_best.pth": "https://github.com/Shreyas1608/Multilevel-AI-Authenticity-Engine/releases/download/untagged-9bc4c27c830e54b706fd/level3_semantic_best.pth",
+    "models/level1/level1_fft.pth": "https://github.com/Shreyas1608/Multilevel-AI-Authenticity-Engine/releases/download/v1.0/level1_fft.pth",
+    "models/level1/level1_hybrid.pth": "https://github.com/Shreyas1608/Multilevel-AI-Authenticity-Engine/releases/download/v1.0/level1_hybrid.pth",
+    "models/level2/level2_face_best.pth": "https://github.com/Shreyas1608/Multilevel-AI-Authenticity-Engine/releases/download/v1.0/level2_face_best.pth",
+    "models/level2/level2_face_cropped_best.pth": "https://github.com/Shreyas1608/Multilevel-AI-Authenticity-Engine/releases/download/v1.0/level2_face_cropped_best.pth",
+    "models/level3/level3_semantic_best.pth": "https://github.com/Shreyas1608/Multilevel-AI-Authenticity-Engine/releases/download/v1.0/level3_semantic_best.pth",
 }
 
 def download_file(url, dest_path):
