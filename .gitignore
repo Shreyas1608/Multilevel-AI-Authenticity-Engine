@@ -1,0 +1,18 @@
+# Models
+models/
+*.pth
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtualenv
+venv/
+myenv/
+
+# Data
+data/
+
+# Streamlit
+.streamlit/
